@@ -1,0 +1,241 @@
+{
+  "version": "1.0",
+  "careers": [
+    {
+      "id": "rn",
+      "title": "Registered Nurse (RN)",
+      "family": "Health & People Care",
+      "tags": ["helping", "medical", "team", "fast-paced"],
+      "env": { "outdoors": 0, "desk": 2, "travel": 1 },
+      "education": { "level": 3, "label": "Associate/Bachelor + licensure" },
+      "profile": { "S": 4, "people": 3, "service": 4, "stressTol": 3, "structure": 2, "detail": 2 }
+    },
+    {
+      "id": "pta",
+      "title": "Physical Therapist Assistant (PTA)",
+      "family": "Health & People Care",
+      "tags": ["rehab", "coaching", "movement"],
+      "env": { "outdoors": 0, "desk": 1, "travel": 1 },
+      "education": { "level": 2, "label": "Associate + licensure" },
+      "profile": { "S": 4, "people": 3, "service": 4, "handsOn": 2, "stressTol": 2 }
+    },
+    {
+      "id": "software_dev",
+      "title": "Software Developer",
+      "family": "Tech & Engineering",
+      "tags": ["coding", "problem-solving", "computer"],
+      "env": { "outdoors": 0, "desk": 5, "travel": 1 },
+      "education": { "level": 3, "label": "Bachelor or equivalent" },
+      "profile": { "I": 4, "systems": 4, "focusDesk": 4, "detail": 2, "autonomy": 2 }
+    },
+    {
+      "id": "cyber",
+      "title": "Cybersecurity Analyst",
+      "family": "Tech & Engineering",
+      "tags": ["security", "investigation", "tech"],
+      "env": { "outdoors": 0, "desk": 5, "travel": 1 },
+      "education": { "level": 3, "label": "Bachelor + certs" },
+      "profile": { "I": 4, "systems": 4, "detail": 3, "focusDesk": 4, "stressTol": 2 }
+    },
+    {
+      "id": "electrician",
+      "title": "Electrician",
+      "family": "Skilled Trades & Build",
+      "tags": ["hands-on", "tools", "apprenticeship"],
+      "env": { "outdoors": 2, "desk": 0, "travel": 2 },
+      "education": { "level": 1, "label": "Apprenticeship/licensure" },
+      "profile": { "R": 4, "handsOn": 4, "systems": 2, "detail": 2, "outdoors": 1 }
+    },
+    {
+      "id": "carpenter",
+      "title": "Carpenter",
+      "family": "Skilled Trades & Build",
+      "tags": ["build", "craftsmanship", "construction"],
+      "env": { "outdoors": 3, "desk": 0, "travel": 2 },
+      "education": { "level": 1, "label": "Apprenticeship/on-the-job" },
+      "profile": { "R": 4, "handsOn": 4, "detail": 2, "outdoors": 2 }
+    },
+    {
+      "id": "ux",
+      "title": "UX/UI Designer",
+      "family": "Design & Creative",
+      "tags": ["design", "user experience", "creative + systems"],
+      "env": { "outdoors": 0, "desk": 5, "travel": 1 },
+      "education": { "level": 3, "label": "Bachelor/bootcamp + portfolio" },
+      "profile": { "A": 4, "creative": 4, "systems": 2, "focusDesk": 3, "people": 1 }
+    },
+    {
+      "id": "graphic",
+      "title": "Graphic Designer",
+      "family": "Design & Creative",
+      "tags": ["visual", "branding", "content"],
+      "env": { "outdoors": 0, "desk": 5, "travel": 1 },
+      "education": { "level": 2, "label": "Associate/Bachelor + portfolio" },
+      "profile": { "A": 4, "creative": 4, "focusDesk": 3, "detail": 2, "autonomy": 2 }
+    },
+    {
+      "id": "teacher",
+      "title": "Teacher (K–12)",
+      "family": "Education & Helping",
+      "tags": ["teaching", "kids", "community"],
+      "env": { "outdoors": 0, "desk": 2, "travel": 0 },
+      "education": { "level": 3, "label": "Bachelor + certification" },
+      "profile": { "S": 4, "people": 4, "service": 4, "leadership": 2, "stressTol": 2 }
+    },
+    {
+      "id": "accountant",
+      "title": "Accountant",
+      "family": "Business & Operations",
+      "tags": ["numbers", "detail", "process"],
+      "env": { "outdoors": 0, "desk": 5, "travel": 1 },
+      "education": { "level": 3, "label": "Bachelor (CPA optional)" },
+      "profile": { "C": 4, "detail": 4, "focusDesk": 3, "systems": 2, "structure": 2 }
+    },
+
+    {
+      "id":"sales_rep","title":"Sales Representative","family":"Business & Operations",
+      "tags":["selling","people","commission"],"env":{"outdoors":0,"desk":3,"travel":3},
+      "education":{"level":2,"label":"Varies (skills matter)"},
+      "profile":{"E":4,"persuasion":4,"people":3,"stressTol":2,"autonomy":2}
+    },
+    {
+      "id":"marketing","title":"Marketing Specialist","family":"Business & Operations",
+      "tags":["branding","content","strategy"],"env":{"outdoors":0,"desk":4,"travel":1},
+      "education":{"level":3,"label":"Bachelor (often)"},
+      "profile":{"E":3,"A":2,"creative":2,"systems":1,"focusDesk":2,"persuasion":2}
+    },
+    {
+      "id":"project_manager","title":"Project Manager","family":"Business & Operations",
+      "tags":["planning","teams","deadlines"],"env":{"outdoors":0,"desk":4,"travel":2},
+      "education":{"level":3,"label":"Bachelor + experience"},
+      "profile":{"E":2,"C":2,"structure":3,"leadership":3,"stressTol":2,"people":2}
+    },
+    {
+      "id":"civil_eng","title":"Civil Engineer","family":"Tech & Engineering",
+      "tags":["infrastructure","problem-solving","design"],"env":{"outdoors":2,"desk":4,"travel":1},
+      "education":{"level":3,"label":"Bachelor"},
+      "profile":{"I":4,"systems":4,"detail":2,"focusDesk":3,"R":2,"outdoors":1}
+    },
+    {
+      "id":"mechanical_eng","title":"Mechanical Engineer","family":"Tech & Engineering",
+      "tags":["machines","design","build"],"env":{"outdoors":0,"desk":4,"travel":1},
+      "education":{"level":3,"label":"Bachelor"},
+      "profile":{"I":4,"systems":4,"detail":2,"focusDesk":3,"R":2}
+    },
+    {
+      "id":"data_analyst","title":"Data Analyst","family":"Tech & Engineering",
+      "tags":["data","insights","computer"],"env":{"outdoors":0,"desk":5,"travel":1},
+      "education":{"level":3,"label":"Bachelor (often)"},
+      "profile":{"I":4,"systems":3,"focusDesk":4,"detail":3,"C":2}
+    },
+    {
+      "id":"gis","title":"GIS Analyst","family":"Tech & Engineering",
+      "tags":["maps","spatial","data"],"env":{"outdoors":1,"desk":4,"travel":1},
+      "education":{"level":2,"label":"Associate/Bachelor"},
+      "profile":{"I":3,"systems":3,"focusDesk":3,"detail":2,"R":1}
+    },
+    {
+      "id":"paramedic","title":"Paramedic","family":"Health & People Care",
+      "tags":["emergency","fast-paced","helping"],"env":{"outdoors":2,"desk":0,"travel":3},
+      "education":{"level":2,"label":"Certificate/Associate + licensure"},
+      "profile":{"S":3,"service":4,"people":2,"stressTol":4,"handsOn":2,"detail":2}
+    },
+    {
+      "id":"radiology_tech","title":"Radiologic Technologist","family":"Health & People Care",
+      "tags":["imaging","medical","tech"],"env":{"outdoors":0,"desk":1,"travel":1},
+      "education":{"level":2,"label":"Associate + licensure"},
+      "profile":{"I":2,"S":2,"detail":3,"service":3,"focusDesk":1}
+    },
+    {
+      "id":"sonographer","title":"Diagnostic Medical Sonographer","family":"Health & People Care",
+      "tags":["ultrasound","patient care","tech"],"env":{"outdoors":0,"desk":1,"travel":1},
+      "education":{"level":2,"label":"Associate + licensure"},
+      "profile":{"S":3,"service":3,"detail":3,"people":2,"handsOn":1}
+    },
+
+    {
+      "id":"landscape_arch","title":"Landscape Architect","family":"Design & Creative",
+      "tags":["outdoors","design","planning"],"env":{"outdoors":2,"desk":4,"travel":2},
+      "education":{"level":3,"label":"Bachelor (often)"},
+      "profile":{"A":3,"I":2,"creative":3,"systems":2,"focusDesk":2,"outdoors":1}
+    },
+    {
+      "id":"architect","title":"Architect","family":"Design & Creative",
+      "tags":["design","buildings","detail"],"env":{"outdoors":1,"desk":5,"travel":1},
+      "education":{"level":4,"label":"Bachelor/Master + licensure"},
+      "profile":{"A":3,"I":3,"creative":3,"detail":3,"focusDesk":4}
+    },
+    {
+      "id":"construction_mgr","title":"Construction Manager","family":"Skilled Trades & Build",
+      "tags":["build","leadership","job sites"],"env":{"outdoors":3,"desk":2,"travel":2},
+      "education":{"level":3,"label":"Bachelor/experience"},
+      "profile":{"R":2,"E":2,"leadership":3,"stressTol":2,"handsOn":2,"structure":2}
+    },
+    {
+      "id":"welder","title":"Welder","family":"Skilled Trades & Build",
+      "tags":["metal","hands-on","precision"],"env":{"outdoors":2,"desk":0,"travel":1},
+      "education":{"level":1,"label":"Certificate/apprenticeship"},
+      "profile":{"R":4,"handsOn":4,"detail":2,"stressTol":1}
+    },
+
+    {
+      "id":"police","title":"Police Officer","family":"Public Service & Safety",
+      "tags":["public safety","community","stress"],"env":{"outdoors":3,"desk":1,"travel":2},
+      "education":{"level":2,"label":"Academy + training"},
+      "profile":{"R":2,"S":2,"service":3,"stressTol":4,"people":2,"leadership":2}
+    },
+    {
+      "id":"firefighter","title":"Firefighter","family":"Public Service & Safety",
+      "tags":["emergency","team","physical"],"env":{"outdoors":3,"desk":0,"travel":1},
+      "education":{"level":2,"label":"Academy + certs"},
+      "profile":{"R":3,"service":4,"stressTol":4,"handsOn":3,"people":2}
+    },
+
+    {
+      "id":"park_ranger","title":"Park Ranger",
+      "family":"Outdoors & Environment",
+      "tags":["nature","public","fieldwork"],"env":{"outdoors":5,"desk":1,"travel":2},
+      "education":{"level":2,"label":"Associate/Bachelor (often)"},
+      "profile":{"R":3,"S":2,"outdoors":4,"service":2,"handsOn":2,"people":1}
+    },
+    {
+      "id":"environmental_scientist","title":"Environmental Scientist",
+      "family":"Outdoors & Environment",
+      "tags":["science","fieldwork","data"],"env":{"outdoors":3,"desk":3,"travel":2},
+      "education":{"level":3,"label":"Bachelor (often)"},
+      "profile":{"I":4,"outdoors":2,"systems":2,"detail":2,"focusDesk":2}
+    },
+
+    {
+      "id":"realtor","title":"Real Estate Agent",
+      "family":"Business & Operations",
+      "tags":["sales","people","commission"],"env":{"outdoors":1,"desk":2,"travel":3},
+      "education":{"level":1,"label":"Licensing"},
+      "profile":{"E":4,"persuasion":3,"people":3,"autonomy":3,"stressTol":2}
+    },
+    {
+      "id":"entrepreneur","title":"Small Business Owner (General)",
+      "family":"Entrepreneurship",
+      "tags":["ownership","risk","leadership"],"env":{"outdoors":1,"desk":3,"travel":2},
+      "education":{"level":2,"label":"Varies (skills + grit)"},
+      "profile":{"E":4,"autonomy":4,"stressTol":3,"leadership":3,"persuasion":2}
+    },
+
+    { "id":"photographer","title":"Photographer","family":"Design & Creative","tags":["creative","visual","people"],"env":{"outdoors":2,"desk":2,"travel":2},"education":{"level":1,"label":"Portfolio-based"},"profile":{"A":4,"creative":4,"people":1,"autonomy":2} },
+    { "id":"videographer","title":"Videographer / Editor","family":"Design & Creative","tags":["video","storytelling","tech"],"env":{"outdoors":1,"desk":4,"travel":2},"education":{"level":2,"label":"Portfolio-based"},"profile":{"A":4,"creative":4,"focusDesk":2,"systems":1} },
+    { "id":"writer","title":"Writer / Copywriter","family":"Design & Creative","tags":["writing","content","creative"],"env":{"outdoors":0,"desk":5,"travel":1},"education":{"level":2,"label":"Varies"},"profile":{"A":4,"creative":3,"focusDesk":3,"autonomy":2} },
+    { "id":"social_worker","title":"Social Worker","family":"Health & People Care","tags":["helping","casework","community"],"env":{"outdoors":1,"desk":3,"travel":2},"education":{"level":3,"label":"Bachelor/Master"},"profile":{"S":4,"service":4,"people":3,"stressTol":2} },
+    { "id":"counselor","title":"Counselor / Therapist","family":"Health & People Care","tags":["listening","mental health","helping"],"env":{"outdoors":0,"desk":3,"travel":0},"education":{"level":5,"label":"Master + licensure"},"profile":{"S":4,"people":4,"service":4,"detail":1,"stressTol":2} },
+
+    { "id":"chef","title":"Chef / Culinary Professional","family":"Service & Hospitality","tags":["food","fast-paced","craft"],"env":{"outdoors":0,"desk":0,"travel":0},"education":{"level":2,"label":"Culinary school/on-the-job"},"profile":{"R":2,"A":2,"handsOn":3,"stressTol":3,"detail":2} },
+    { "id":"event_planner","title":"Event Planner","family":"Service & Hospitality","tags":["planning","people","stress"],"env":{"outdoors":1,"desk":2,"travel":2},"education":{"level":2,"label":"Varies"},"profile":{"E":2,"S":2,"people":3,"structure":3,"stressTol":2} },
+
+    { "id":"aircraft_mech","title":"Aircraft Mechanic","family":"Skilled Trades & Build","tags":["mechanical","precision","tools"],"env":{"outdoors":1,"desk":0,"travel":1},"education":{"level":2,"label":"Trade school/certs"},"profile":{"R":4,"handsOn":4,"detail":3,"systems":2} },
+    { "id":"hvac","title":"HVAC Technician","family":"Skilled Trades & Build","tags":["service","tools","field"],"env":{"outdoors":2,"desk":0,"travel":2},"education":{"level":1,"label":"Apprenticeship/certs"},"profile":{"R":4,"handsOn":4,"systems":2,"people":1} },
+
+    { "id":"banker","title":"Financial Advisor","family":"Business & Operations","tags":["money","people","planning"],"env":{"outdoors":0,"desk":4,"travel":1},"education":{"level":3,"label":"Bachelor + licensing"},"profile":{"E":3,"C":2,"people":2,"persuasion":2,"detail":2,"focusDesk":2} },
+    { "id":"ops_mgr","title":"Operations Manager","family":"Business & Operations","tags":["systems","process","leadership"],"env":{"outdoors":1,"desk":3,"travel":1},"education":{"level":3,"label":"Bachelor/experience"},"profile":{"C":2,"systems":3,"structure":3,"leadership":3,"stressTol":2} }
+
+    /* Add more careers anytime using same structure. */
+  ]
+}
