@@ -1,0 +1,810 @@
+{
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "q001",
+      "section": "Work Environment & Energy",
+      "text": "I feel restless if I’m sitting most of the day.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "handsOn": 1.2,
+        "focusDesk": -0.8,
+        "R": 0.4
+      }
+    },
+    {
+      "id": "q002",
+      "section": "Work Environment & Energy",
+      "text": "If I’m outside regularly, I feel noticeably better.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "outdoors": 1.6
+      }
+    },
+    {
+      "id": "q003",
+      "section": "Work Environment & Energy",
+      "text": "I’d rather move around than be stuck at a desk all day.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "handsOn": 1.0,
+        "focusDesk": -0.8,
+        "travel": 0.3
+      }
+    },
+    {
+      "id": "q004",
+      "section": "Work Environment & Energy",
+      "text": "I can focus on a computer for hours without getting annoyed.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "focusDesk": 1.6,
+        "I": 0.4
+      }
+    },
+    {
+      "id": "q005",
+      "section": "Work Environment & Energy",
+      "text": "Too much screen time drains me.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "focusDesk": -1.4,
+        "handsOn": 0.4
+      }
+    },
+    {
+      "id": "q006",
+      "section": "Work Environment & Energy",
+      "text": "I like busy places where there’s a lot happening.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "people": 1.2,
+        "stressTol": 0.6
+      }
+    },
+    {
+      "id": "q007",
+      "section": "Work Environment & Energy",
+      "text": "I prefer calm places where I can think.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "focusDesk": 1.0,
+        "people": -0.6
+      }
+    },
+    {
+      "id": "q008",
+      "section": "Work Environment & Energy",
+      "text": "I don’t mind noise, mess, or unpredictability.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "stressTol": 1.2
+      }
+    },
+    {
+      "id": "q009",
+      "section": "Work Environment & Energy",
+      "text": "I want a predictable schedule most weeks.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "structure": 1.2,
+        "C": 0.4
+      }
+    },
+    {
+      "id": "q010",
+      "section": "Work Environment & Energy",
+      "text": "I like variety—different tasks, different days.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "autonomy": 1.0,
+        "A": 0.3
+      }
+    },
+    {
+      "id": "q011",
+      "section": "Work Environment & Energy",
+      "text": "I’m open to a job that includes some travel or changing locations.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "travel": 1.2,
+        "E": 0.2
+      }
+    },
+    {
+      "id": "q012",
+      "section": "Work Environment & Energy",
+      "text": "I’d rather work indoors most of the time.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "outdoors": -1.2,
+        "focusDesk": 0.2
+      }
+    },
+    {
+      "id": "q013",
+      "section": "Work Environment & Energy",
+      "text": "I’d enjoy working with my hands (tools, equipment, building, fixing).",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "handsOn": 1.6,
+        "R": 0.6
+      }
+    },
+    {
+      "id": "q014",
+      "section": "Work Environment & Energy",
+      "text": "I’d enjoy work that involves people talking/collaborating a lot.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "people": 1.2,
+        "S": 0.4
+      }
+    },
+    {
+      "id": "q015",
+      "section": "Work Environment & Energy",
+      "text": "I’d enjoy work where I can listen and focus without interruptions.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "focusDesk": 1.2,
+        "people": -0.8,
+        "I": 0.2
+      }
+    },
+    {
+      "id": "q016",
+      "section": "Work Environment & Energy",
+      "text": "I like seeing a clear result at the end of the day.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "detail": 0.6,
+        "C": 0.4,
+        "handsOn": 0.6
+      }
+    },
+    {
+      "id": "q017",
+      "section": "Work Environment & Energy",
+      "text": "I’m okay being on my feet for long periods.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "handsOn": 1.0,
+        "R": 0.3
+      }
+    },
+    {
+      "id": "q018",
+      "section": "Work Environment & Energy",
+      "text": "I like environments that are fast-paced and high-energy.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "stressTol": 1.2,
+        "E": 0.2
+      }
+    },
+    {
+      "id": "q019",
+      "section": "Work Environment & Energy",
+      "text": "I prefer steady environments where things don’t change constantly.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "structure": 1.0,
+        "stressTol": -0.6
+      }
+    },
+    {
+      "id": "q020",
+      "section": "Work Environment & Energy",
+      "text": "I’d like a mix: some people time + some solo time.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "people": 0.6,
+        "focusDesk": 0.6
+      }
+    },
+    {
+      "id": "q021",
+      "section": "Interests & Curiosity",
+      "text": "I’m curious how technology works (apps, devices, systems).",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "I": 0.6,
+        "systems": 1.2,
+        "focusDesk": 0.4
+      }
+    },
+    {
+      "id": "q022",
+      "section": "Interests & Curiosity",
+      "text": "I like solving puzzles or problems that take real thinking.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "I": 1.2,
+        "systems": 1.0
+      }
+    },
+    {
+      "id": "q023",
+      "section": "Interests & Curiosity",
+      "text": "I’m interested in how the human body works and how people heal.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "I": 0.6,
+        "service": 0.8
+      }
+    },
+    {
+      "id": "q024",
+      "section": "Interests & Curiosity",
+      "text": "I enjoy helping someone feel supported, understood, or safer.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "S": 0.6,
+        "service": 1.2,
+        "people": 0.6
+      }
+    },
+    {
+      "id": "q025",
+      "section": "Interests & Curiosity",
+      "text": "I’m drawn to building, repairing, or improving physical things.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "R": 0.8,
+        "handsOn": 1.2
+      }
+    },
+    {
+      "id": "q026",
+      "section": "Interests & Curiosity",
+      "text": "I like creating things (art, design, writing, music, video).",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "A": 1.0,
+        "creative": 1.4
+      }
+    },
+    {
+      "id": "q027",
+      "section": "Interests & Curiosity",
+      "text": "I enjoy making things look better (visuals, spaces, products).",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "creative": 1.2,
+        "detail": 0.4,
+        "A": 0.4
+      }
+    },
+    {
+      "id": "q028",
+      "section": "Interests & Curiosity",
+      "text": "I like learning how money works (income, investing, pricing).",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "E": 0.8,
+        "systems": 0.4
+      }
+    },
+    {
+      "id": "q029",
+      "section": "Interests & Curiosity",
+      "text": "I’m curious about how businesses grow and compete.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "E": 1.0,
+        "persuasion": 0.4
+      }
+    },
+    {
+      "id": "q030",
+      "section": "Interests & Curiosity",
+      "text": "I like persuading people or pitching ideas.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "E": 0.8,
+        "persuasion": 1.0
+      }
+    },
+    {
+      "id": "q031",
+      "section": "Interests & Curiosity",
+      "text": "I’m interested in how communities/cities/schools are designed.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "systems": 0.8,
+        "service": 0.4,
+        "I": 0.2
+      }
+    },
+    {
+      "id": "q032",
+      "section": "Interests & Curiosity",
+      "text": "I enjoy science experiments or discovering how nature works.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "I": 1.0
+      }
+    },
+    {
+      "id": "q033",
+      "section": "Interests & Curiosity",
+      "text": "I like nature, animals, or environmental topics.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "outdoors": 1.0,
+        "R": 0.2
+      }
+    },
+    {
+      "id": "q034",
+      "section": "Interests & Curiosity",
+      "text": "I’m interested in law, justice, or how rules impact people.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "C": 0.4,
+        "structure": 0.4,
+        "people": 0.2
+      }
+    },
+    {
+      "id": "q035",
+      "section": "Interests & Curiosity",
+      "text": "I like planning events, trips, or projects.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "C": 0.8,
+        "structure": 0.6
+      }
+    },
+    {
+      "id": "q036",
+      "section": "Interests & Curiosity",
+      "text": "I enjoy teaching, coaching, or explaining things.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "S": 0.8,
+        "people": 0.6,
+        "leadership": 0.4
+      }
+    },
+    {
+      "id": "q037",
+      "section": "Interests & Curiosity",
+      "text": "I like working with numbers or data (stats, spreadsheets, trends).",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "C": 0.8,
+        "detail": 0.8,
+        "I": 0.4
+      }
+    },
+    {
+      "id": "q038",
+      "section": "Interests & Curiosity",
+      "text": "I’m curious about what makes people think/act the way they do.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "S": 0.4,
+        "I": 0.6,
+        "people": 0.4
+      }
+    },
+    {
+      "id": "q039",
+      "section": "Interests & Curiosity",
+      "text": "I like hands-on creative projects (wood, crafts, building, cooking).",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "handsOn": 0.8,
+        "creative": 0.8,
+        "R": 0.2
+      }
+    },
+    {
+      "id": "q040",
+      "section": "Interests & Curiosity",
+      "text": "I like improving systems—making something work better.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "systems": 1.2,
+        "I": 0.4,
+        "detail": 0.2
+      }
+    },
+    {
+      "id": "q041",
+      "section": "Temperament & Work Style",
+      "text": "When something goes wrong, I stay fairly calm.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "stressTol": 1.2
+      }
+    },
+    {
+      "id": "q042",
+      "section": "Temperament & Work Style",
+      "text": "I get stressed easily when everything is urgent at once.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "stressTol": -1.2
+      }
+    },
+    {
+      "id": "q043",
+      "section": "Temperament & Work Style",
+      "text": "I like having clear rules and expectations.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "structure": 1.2,
+        "C": 0.4
+      }
+    },
+    {
+      "id": "q044",
+      "section": "Temperament & Work Style",
+      "text": "I prefer freedom to figure out my own way.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "autonomy": 1.2,
+        "E": 0.2
+      }
+    },
+    {
+      "id": "q045",
+      "section": "Temperament & Work Style",
+      "text": "I finish what I start—even when it gets boring.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "detail": 0.8,
+        "structure": 0.6
+      }
+    },
+    {
+      "id": "q046",
+      "section": "Temperament & Work Style",
+      "text": "I start strong but struggle with follow-through sometimes.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "detail": -0.8,
+        "structure": -0.4,
+        "A": 0.2
+      }
+    },
+    {
+      "id": "q047",
+      "section": "Temperament & Work Style",
+      "text": "I like working independently most of the time.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "autonomy": 1.0,
+        "people": -0.4
+      }
+    },
+    {
+      "id": "q048",
+      "section": "Temperament & Work Style",
+      "text": "I get energy from being on a team.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "people": 1.0,
+        "S": 0.2
+      }
+    },
+    {
+      "id": "q049",
+      "section": "Temperament & Work Style",
+      "text": "I’m comfortable speaking up or taking the lead.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "leadership": 1.0,
+        "E": 0.3
+      }
+    },
+    {
+      "id": "q050",
+      "section": "Temperament & Work Style",
+      "text": "I prefer supporting roles rather than being in charge.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "leadership": -0.8,
+        "S": 0.2
+      }
+    },
+    {
+      "id": "q051",
+      "section": "Temperament & Work Style",
+      "text": "I notice small mistakes that others miss.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "detail": 1.2,
+        "C": 0.2
+      }
+    },
+    {
+      "id": "q052",
+      "section": "Temperament & Work Style",
+      "text": "I like big-picture thinking more than details.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "detail": -0.8,
+        "A": 0.2,
+        "E": 0.2
+      }
+    },
+    {
+      "id": "q053",
+      "section": "Temperament & Work Style",
+      "text": "I like making plans and sticking to them.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "structure": 1.0,
+        "C": 0.4
+      }
+    },
+    {
+      "id": "q054",
+      "section": "Temperament & Work Style",
+      "text": "I can adapt quickly when plans change.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "stressTol": 0.8,
+        "autonomy": 0.4
+      }
+    },
+    {
+      "id": "q055",
+      "section": "Temperament & Work Style",
+      "text": "I work best when there are deadlines.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "structure": 0.8,
+        "detail": 0.4
+      }
+    },
+    {
+      "id": "q056",
+      "section": "Temperament & Work Style",
+      "text": "I like experimenting and trying new approaches.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "A": 0.6,
+        "autonomy": 0.6
+      }
+    },
+    {
+      "id": "q057",
+      "section": "Temperament & Work Style",
+      "text": "I’m comfortable with uncertainty if I believe in the goal.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "stressTol": 0.8,
+        "autonomy": 0.6
+      }
+    },
+    {
+      "id": "q058",
+      "section": "Temperament & Work Style",
+      "text": "I prefer stable, predictable outcomes.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "structure": 0.8,
+        "stressTol": -0.4
+      }
+    },
+    {
+      "id": "q059",
+      "section": "Temperament & Work Style",
+      "text": "I like tracking progress (goals, metrics, checklists).",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "C": 0.8,
+        "detail": 0.4
+      }
+    },
+    {
+      "id": "q060",
+      "section": "Temperament & Work Style",
+      "text": "I enjoy improving processes (making a system smoother).",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "systems": 1.0,
+        "C": 0.2
+      }
+    },
+    {
+      "id": "q061",
+      "section": "Values, Purpose & Constraints",
+      "text": "It matters to me that my work helps people in a real way.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "service": 1.4,
+        "S": 0.2
+      }
+    },
+    {
+      "id": "q062",
+      "section": "Values, Purpose & Constraints",
+      "text": "I want work that feels meaningful—not just a paycheck.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "service": 1.0,
+        "A": 0.2
+      }
+    },
+    {
+      "id": "q063",
+      "section": "Values, Purpose & Constraints",
+      "text": "I’m motivated by earning a strong income.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "E": 1.0
+      }
+    },
+    {
+      "id": "q064",
+      "section": "Values, Purpose & Constraints",
+      "text": "I care about having time/energy left for family and life.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "autonomy": 1.0
+      }
+    },
+    {
+      "id": "q065",
+      "section": "Values, Purpose & Constraints",
+      "text": "I want a career path that feels stable and secure.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "structure": 1.0
+      }
+    },
+    {
+      "id": "q066",
+      "section": "Values, Purpose & Constraints",
+      "text": "I’m open to college if it clearly leads somewhere worth it.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "eduTolerance": 1.0,
+        "systems": 0.2
+      }
+    },
+    {
+      "id": "q067",
+      "section": "Values, Purpose & Constraints",
+      "text": "I’d rather start earning sooner than spend many years in school.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "eduTolerance": -0.8,
+        "debtAversion": 0.4
+      }
+    },
+    {
+      "id": "q068",
+      "section": "Values, Purpose & Constraints",
+      "text": "Student debt makes me nervous.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "debtAversion": 1.2,
+        "eduTolerance": -0.2
+      }
+    },
+    {
+      "id": "q069",
+      "section": "Values, Purpose & Constraints",
+      "text": "I’m willing to work hard for a long-term payoff.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "stressTol": 0.6,
+        "eduTolerance": 0.4
+      }
+    },
+    {
+      "id": "q070",
+      "section": "Values, Purpose & Constraints",
+      "text": "I’d rather take a practical path than chase prestige.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "debtAversion": 0.6,
+        "structure": 0.2
+      }
+    },
+    {
+      "id": "q071",
+      "section": "Values, Purpose & Constraints",
+      "text": "I want flexibility to change directions if I grow or change.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "autonomy": 1.0
+      }
+    },
+    {
+      "id": "q072",
+      "section": "Values, Purpose & Constraints",
+      "text": "I like the idea of building something that lasts (impact/legacy).",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "leadership": 0.6,
+        "detail": 0.2
+      }
+    },
+    {
+      "id": "q073",
+      "section": "Values, Purpose & Constraints",
+      "text": "I want work that aligns with my personal values.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "service": 0.8
+      }
+    },
+    {
+      "id": "q074",
+      "section": "Values, Purpose & Constraints",
+      "text": "I care about being excellent at what I do.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "detail": 0.8
+      }
+    },
+    {
+      "id": "q075",
+      "section": "Values, Purpose & Constraints",
+      "text": "I want to contribute to my community.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "service": 0.8,
+        "people": 0.2
+      }
+    },
+    {
+      "id": "q076",
+      "section": "Values, Purpose & Constraints",
+      "text": "I’m open to trade school or apprenticeships if it fits me.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "eduTolerance": 0.4,
+        "debtAversion": 0.4,
+        "handsOn": 0.2
+      }
+    },
+    {
+      "id": "q077",
+      "section": "Values, Purpose & Constraints",
+      "text": "I like the idea of running my own business someday.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "E": 0.6,
+        "autonomy": 1.0
+      }
+    },
+    {
+      "id": "q078",
+      "section": "Values, Purpose & Constraints",
+      "text": "I’m okay taking calculated risks for a bigger reward.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "E": 0.6,
+        "stressTol": 0.6
+      }
+    },
+    {
+      "id": "q079",
+      "section": "Values, Purpose & Constraints",
+      "text": "I’d rather have a job I enjoy than a job that only looks impressive.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "service": 0.4,
+        "autonomy": 0.4
+      }
+    },
+    {
+      "id": "q080",
+      "section": "Values, Purpose & Constraints",
+      "text": "I want my career to fit my life—not consume it.",
+      "hint": "Go with your first honest reaction.",
+      "weights": {
+        "autonomy": 1.2
+      }
+    }
+  ]
+}
